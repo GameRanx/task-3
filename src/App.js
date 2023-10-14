@@ -1,13 +1,12 @@
-import React from 'react';
-import ColorPicker from './components/ColorPicker';
-import './components/ColorPicker.css';
+import './App.css';
+// import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from './components/Container';
+
 function App() {
- return (
-    <div className="App">
-      
-      <h1>Color Picker</h1>
-      <ColorPicker />
-    </div>
- );
+  return (
+    <Container/>
+  );
 }
-export default App ;
+
+export default App;
